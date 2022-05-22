@@ -10,9 +10,10 @@ If the rider (including pillion rider if available) is not wearing a helmet, the
 Another image of the rider with the motorcycle will be saved in another folder called rider_pictures. 
 The data can then be sent to the database of the concerned authorities to impose fines accordingly for the offenders. 
 
-Further scope to improve : Add the overspeeding detection part using YOLO V5
+Further scope to improve : Add the overspeeding detection part using YOLO V5.
 
-Add 
+# MODEL WORKING :
+
 <img
 src="./bike_gif.gif"
 />
