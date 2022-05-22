@@ -1,13 +1,24 @@
-# Motorcycle licence plate extraction when rider not wearing helmet 
-This is project is extracting motorcycle license plates if the rider or back sitter is not wearing a helmet.
+# SMART TRAFFIC MANAGEMENT SYSTEM 
+# Custom Object detection to extract license plate number and rider details using YOLO V5 and Resnet-50 image classifier
 
-In this project i am using yolv5 algorithm to detect rider, licence plate and riders head. Then using resnet50 image classifier, i classify wheather the rider is wearing a helmet or not. If not wearing a helmet then, it will save his licence plate number in a image folder, and also will capture rider image in a separate folder.
+Problem statement : To extract the license plate information if the motorcycle rider is not wearing a helmet (Rider or Pillion or both not wearing).
 
+Steps followed : 
+Do custom object detection using YOLO V5 to detect only the motorcycle riders on the road. Also detect the license number plate and the rider's head. 
+Then apply image classification using the Resnet50 Image Classifier to determine if the rider is wearing a helmet or not. 
+If the rider (including pillion rider if available) is not wearing a helmet, then an image of the rider's license number plate will be saved in a folder number_plates.
+Another image of the rider with the motorcycle will be saved in another folder called rider_pictures. 
+The data can then be sent to the database of the concerned authorities to impose fines accordingly for the offenders. 
+
+Further scope to improve : Add the overspeeding detection part using YOLO V5
+
+Add 
 <img
 src="./bike_gif.gif"
 />
 
 
+Given below are the required weight files which are already trained to perform realtime object detection 
 
 # Download Model and other necessary files from link below:
 After downloading these files put them all in the main folder and now you can run the code.
