@@ -1,5 +1,4 @@
-# SMART TRAFFIC MANAGEMENT SYSTEM 
-# Custom Object detection to extract license plate number and rider details using YOLO V5 and Resnet-50 image classifier
+# State-of-the-art Object detection to extract license plate number and rider details using YOLO V5 and Resnet-50 image classifier
 
 Problem statement : To extract the license plate information if the motorcycle rider is not wearing a helmet (Rider or Pillion or both not wearing).
 
